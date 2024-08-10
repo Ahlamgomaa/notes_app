@@ -2,6 +2,6 @@ import 'package:bloc/bloc.dart';
 
 
 part 'add_notes_state.dart';
-class NotesCubit extends Cubit<AddNotesState> {
-  NotesCubit() : super(NotesInitial());
+class AddNotesCubit extends Cubit<AddNotesState> {
+  AddNotesCubit() : super(AddNotesInitial());
 }
