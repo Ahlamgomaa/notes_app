@@ -7,7 +7,7 @@ class NoteItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding:const EdgeInsets.only(top: 24, bottom: 24, left: 16),
+      padding: const EdgeInsets.only(top: 24, bottom: 24, left: 16),
       decoration: BoxDecoration(
         color: const Color(0xFFFFCC80),
         borderRadius: BorderRadius.circular(16),
@@ -32,7 +32,7 @@ class NoteItem extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   // fontFamily: 'Edu Australia VIC WA NT Hand',
                   color: Colors.black.withOpacity(.3),
-                  fontSize: 20,
+                  fontSize: 18,
                 ),
               ),
             ),
