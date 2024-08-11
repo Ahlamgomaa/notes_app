@@ -22,7 +22,7 @@ class NoteItem extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.only(top: 24, bottom: 24, left: 16),
         decoration: BoxDecoration(
-          color:  Color(note.color),
+          color: Color(note.color),
           borderRadius: BorderRadius.circular(16),
         ),
         child: Column(
@@ -32,10 +32,11 @@ class NoteItem extends StatelessWidget {
               title: Text(
                 note.title,
                 style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    // fontFamily: 'Edu Australia VIC WA NT Hand',
-                    color: Colors.black,
-                    fontSize: 26),
+                  fontWeight: FontWeight.bold,
+                  // fontFamily: 'Edu Australia VIC WA NT Hand',
+                  color: Colors.black,
+                  fontSize: 26,
+                ),
               ),
               subtitle: Padding(
                 padding: const EdgeInsets.only(top: 20, bottom: 16),
@@ -44,7 +45,7 @@ class NoteItem extends StatelessWidget {
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     // fontFamily: 'Edu Australia VIC WA NT Hand',
-                    color: Colors.black.withOpacity(.3),
+                    color: Colors.black.withOpacity(.6),
                     fontSize: 18,
                   ),
                 ),
